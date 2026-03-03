@@ -17,17 +17,16 @@ export default function Navbar({ search, onSearchChange }) {
           <NavLink className="nav-link text-light mx-5" to="/fund" data-testid="My_Fund">My_Fund</NavLink>
         </li>
       </ul>
-      <form className="form-inline my-2 my-lg-0 ms-auto">
-        <input 
-          className="form-control mr-sm-3" 
-          type="search" 
-          data-testid="search" 
-          placeholder="Search" 
-          aria-label="Search" 
-          value={search} 
-          onChange={onSearchChange}
-        />
-      </form>
+      <input 
+        className="form-control mr-sm-3 ms-auto" 
+        type="search" 
+        data-testid="search" 
+        placeholder="Search stocks..." 
+        aria-label="Search" 
+        value={search} 
+        onChange={onSearchChange}
+        style={{ maxWidth: '250px' }}
+      />
     </div>
     </nav>
 

@@ -48,8 +48,8 @@ export default function MyStocks() {
               <tr>
                 <th scope="row">NetWorth</th>
                 <td></td>
-                <td></td>
                 <td>Rs <span data-testid="totalPrice-MyStocks">{sum}</span></td>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
