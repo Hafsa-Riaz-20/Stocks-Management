@@ -7,11 +7,11 @@ export default function MyFund() {
   value.map((val) => {sum += val.quantity*val.price})
   return (
     <div className="text-center my-5">
-      <h1>Total Fund :-Rs<span data-testid="fund">{12000}</span></h1>
+      <h1>Total Fund :-Rs<span data-testid="fund">{10000}</span></h1>
       <br/>
       <h1>Total Value of Stock Bought :- Rs <span data-testid="stock-fund">{sum}</span></h1>
       <br/>
-      <h1>Remaing Fund :- Rs <span data-testid="remaining-fund">{12000 - sum}</span></h1>
+      <h1>Remaing Fund :- Rs <span data-testid="remaining-fund">{10000 - sum}</span></h1>
     </div>
   );
 }

@@ -39,7 +39,7 @@ export default function Form(props) {
   };
 
   return (
-    <div className="container my-5" data-testid="form">
+    <div className="container my-5" data-testid="sell-form">
       <div className="card bg-dark text-light p-4">
         <h1>Company Name :- {value[props.index].company}</h1>
         <h1>Stocks Owned :- {value[props.index].quantity}</h1>
