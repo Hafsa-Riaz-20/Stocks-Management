@@ -1,0 +1,44 @@
+{
+  "stocks" : [
+    {
+      "company" : "Abbott India Ltd.",
+      "price" : 17690.45
+    },
+    {
+      "company" : "Adani Power Ltd.",
+      "price" : 130
+    },
+    {
+      "company" : "Bank Of Baroda",
+      "price" : 100
+    },
+    {
+      "company" : "Central Bank of India",
+      "price" : 21.65
+    },
+    {
+      "company" : "Bharat Heavy Electricals Ltd.",
+      "price" : 63.70
+    },
+    {
+      "company" : "Bata India Ltd.",
+      "price" : 2000.95
+    },
+    {
+      "company" : "Berger Paints India Ltd.",
+      "price" : 771.35
+    },
+    {
+      "company" : "Blue Dart Express Ltd.",
+      "price" : 7220.80
+    },
+    {
+      "company" : "Britannia Industries Ltd.",
+      "price" : 3712.05
+    },
+    {
+      "company" : "City Union Bank Ltd.",
+      "price" : 146.90
+    }
+  ]
+}
